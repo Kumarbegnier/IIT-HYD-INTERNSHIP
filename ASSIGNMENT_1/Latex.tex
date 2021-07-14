@@ -101,6 +101,476 @@ columns=fullflexible
 \providecommand{\system}{\overset{\mathcal{H}}{ \longleftrightarrow}}
 	%\newcommand{\solution}[2]{\textbf{Solution:}{#1}}
 \newcommand{\solution}{\noindent \textbf{Solution: }}
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@Kumarbegnier
+Kumarbegnier /
+IIT-HYD-INTERNSHIP
+
+1
+0
+
+    0
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+
+    Settings
+
+IIT-HYD-INTERNSHIP/ASSIGNMENT_1/
+in
+main
+
+1
+
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+
+2
+
+%
+
+3
+
+\usepackage{setspace}
+
+4
+
+\usepackage{gensymb}
+
+5
+
+\singlespacing
+
+6
+
+\usepackage[cmex10]{amsmath}
+
+7
+
+\usepackage{siunitx}
+
+8
+
+\usepackage{amsthm}
+
+9
+
+​
+
+10
+
+\usepackage{mathrsfs}
+
+11
+
+​
+
+12
+
+\usepackage{txfonts}
+
+13
+
+\usepackage{stfloats}
+
+14
+
+​
+
+15
+
+\usepackage{steinmetz}
+
+16
+
+\usepackage{cite}
+
+17
+
+\usepackage{cases}
+
+18
+
+\usepackage{subfig}
+
+19
+
+\usepackage{longtable}
+
+20
+
+\usepackage{multirow}
+
+21
+
+\usepackage{enumitem}
+
+22
+
+\usepackage{mathtools}
+
+23
+
+\usepackage{tikz}
+
+24
+
+\usepackage{circuitikz}
+
+25
+
+\usepackage{verbatim}
+
+26
+
+\usepackage{tfrupee}
+
+27
+
+\usepackage[breaklinks=true]{hyperref}
+
+28
+
+\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+
+29
+
+\usetikzlibrary{calc,math}
+
+30
+
+\usetikzlibrary{fadings}
+
+31
+
+\usepackage{listings}
+
+32
+
+    \usepackage{color}                                            %%
+
+33
+
+    \usepackage{array}                                            %%
+
+34
+
+    \usepackage{longtable}                                        %%
+
+35
+
+    \usepackage{calc}                                             %%
+
+36
+
+    \usepackage{multirow}                                         %%
+
+37
+
+    \usepackage{hhline}                                           %%
+
+38
+
+    \usepackage{ifthen}                                           %%
+
+39
+
+  %optionally (for landscape tables embedded in another document): %%
+
+40
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@Kumarbegnier
+Kumarbegnier /
+IIT-HYD-INTERNSHIP
+
+1
+0
+
+    0
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+
+    Settings
+
+IIT-HYD-INTERNSHIP/ASSIGNMENT_1/
+in
+main
+
+1
+
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+
+2
+
+%
+
+3
+
+\usepackage{setspace}
+
+4
+
+\usepackage{gensymb}
+
+5
+
+\singlespacing
+
+6
+
+\usepackage[cmex10]{amsmath}
+
+7
+
+\usepackage{siunitx}
+
+8
+
+\usepackage{amsthm}
+
+9
+
+​
+
+10
+
+\usepackage{mathrsfs}
+
+11
+
+​
+
+12
+
+\usepackage{txfonts}
+
+13
+
+\usepackage{stfloats}
+
+14
+
+​
+
+15
+
+\usepackage{steinmetz}
+
+16
+
+\usepackage{cite}
+
+17
+
+\usepackage{cases}
+
+18
+
+\usepackage{subfig}
+
+19
+
+\usepackage{longtable}
+
+20
+
+\usepackage{multirow}
+
+21
+
+\usepackage{enumitem}
+
+22
+
+\usepackage{mathtools}
+
+23
+
+\usepackage{tikz}
+
+24
+
+\usepackage{circuitikz}
+
+25
+
+\usepackage{verbatim}
+
+26
+
+\usepackage{tfrupee}
+
+27
+
+\usepackage[breaklinks=true]{hyperref}
+
+28
+
+\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+
+29
+
+\usetikzlibrary{calc,math}
+
+30
+
+\usetikzlibrary{fadings}
+
+31
+
+\usepackage{listings}
+
+32
+
+    \usepackage{color}                                            %%
+
+33
+
+    \usepackage{array}                                            %%
+
+34
+
+    \usepackage{longtable}                                        %%
+
+35
+
+    \usepackage{calc}                                             %%
+
+36
+
+    \usepackage{multirow}                                         %%
+
+37
+
+    \usepackage{hhline}                                           %%
+
+38
+
+    \usepackage{ifthen}                                           %%
+
+39
+
+  %optionally (for landscape tables embedded in another document): %%
+
+40
+
+    \usepackage{lscape}     
+
+41
+
+\usepackage{multicol}
+
+42
+
+\usepackage{chngcntr}
+
+43
+
+\DeclareMathOperator*{\Res}{Res}
+
+44
+
+​
+
+45
+
+\renewcommand\thesection{\arabic{section}}
+
+46
+
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
+
+@Kumarbegnier
+Commit changes
+Commit summary
+Optional extended description
+Commit directly to the main branch.
+Create a new branch for this commit and start a pull request. Learn more about pull requests.
+
+    © 2021 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
+
+
+    \usepackage{lscape}     
+
+41
+
+\usepackage{multicol}
+
+42
+
+\usepackage{chngcntr}
+
+43
+
+\DeclareMathOperator*{\Res}{Res}
+
+44
+
+​
+
+45
+
+\renewcommand\thesection{\arabic{section}}
+
+46
+
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
+
+@Kumarbegnier
+Commit changes
+Commit summary
+Optional extended description
+Commit directly to the main branch.
+Create a new branch for this commit and start a pull request. Learn more about pull requests.
+
+    © 2021 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
+
 \newcommand{\cosec}{\,\text{cosec}\,}
 \providecommand{\dec}[2]{\ensuremath{\overset{#1}{\underset{#2}{\gtrless}}}}
 \newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
@@ -170,7 +640,7 @@ y&= z\brak{\frac{\sin{Y}}{\sin{Z}}}
 &= 6 \brak{\frac{\sin{\ang{100}}}{\sin{\ang{50}}}}
 &= 7.7134
 \end{align}
-The vertices of $\triangle XYZ$ are
+The vertex of Y can be expressed in polar coordinate.
 \begin{align}
 \vec{X} =\myvec{0 \\ 0},
 \vec{Y} =6\myvec{\cos{\ang{30}} \\ \sin{\ang{30}}},
