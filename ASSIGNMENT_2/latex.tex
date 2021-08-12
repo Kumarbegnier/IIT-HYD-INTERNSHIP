@@ -142,11 +142,11 @@ and latex-tikz codes from
 https://github.com/Kumarbegnier/IIT-HYD-INTERNSHIP/blob/main/ASSIGNMENT_2/latex.tex
 \end{lstlisting}
 \section{Question No. 2.3 - Quadratic forms}
-Find the locus of all the unit vectors in the
-xy-plane%
+Find the locus of all the unit vectors in the xy-plane%
 \section{Solution}
-% 
-let,the unit vector be $\vec{a}=1$, $OA= \vec{a}$ \\
+%
+Given that,  $\vec{a}=1$, $z=0$\\
+Let, point "D" which perpendicular to the $OB$ with $OA= \vec{a}$, $OD = x$, $AD = y$, $A(x,y)$\\
 %
 We know that,
 %
@@ -160,8 +160,15 @@ since the vector in xy plane, there is no z-coordinate.Hence,
 \vec{a} = x\vec{i}+y\vec{j}
 \end{equation}
 %
-Taking a general vector\\
-Angle AOB with x-axis in between is  $\vec{a}$ and $\vec{i}$ is $\angle{AOB}$
+\begin{equation}
+1 = \sqrt{x^2+y^2}
+\end{equation}
+%
+%
+squaring both side 
+\begin{equation}
+1 = x^2+y^2
+\end{equation}
 %
 \begin{figure}[!h]
 \centering
@@ -170,69 +177,48 @@ Angle AOB with x-axis in between is  $\vec{a}$ and $\vec{i}$ is $\angle{AOB}$
 \label{Figure}
 \end{figure}
 %
-we know that,
-%
+This equation similar to the circle equation
+so , we can  write like this
 \begin{equation}
-\vec{a}.\vec{b} = |\vec{a}||\vec{b}|\cos{AOB}
+1^2 = (x-0)^2+(y-0)^2
 \end{equation}
 %
 \begin{equation}
-\vec{a}.\vec{b} = (1 \times 1) \cos{AOB}
+a^2 = (x-h)^2+(y-k)^2
 \end{equation}
 %
-putting $a=a$, $b=i$ , as we know that a is unit vector
-\begin{equation}
-    \vec{a}.\vec{i} = \cos{AOB}
-\end{equation}
+taking $\triangle{AOD}$
 %
 \begin{equation}
- (x\vec{i}+y\vec{j}+z\vec{k}).\vec{i} = \cos{AOB} 
+\sin{AOD} = y/\vec{a}
 \end{equation}
 %
 \begin{equation}
- (x\vec{i}+y\vec{j}+z\vec{0})(x\vec{1}+y\vec{0}+z\vec{0}) = \cos{AOB} 
+y= 1.\sin{AOD}
 \end{equation}
 %
 \begin{equation}
-x= \cos{AOB}
+y=\sin{AOD}
 \end{equation}
-%
-Angle with y-axis, in between $\vec{a}$,  and  $\vec{j}$  is $(90\degree - \angle{AOB})$\\
-%
-so, angle between \\
+Again taking, $\triangle{AOD}$
 %
 \begin{equation}
-\vec{a}.\vec{j} = |\vec{a}| |\vec{j}| (90\degree -\cos{AOB})
+\cos{AOD}=x/\vec{a}
 \end{equation}
 %
 \begin{equation}
-\vec{a}.\vec{j} = (\sin{AOB})
+x= 1.\cos{AOD}
 \end{equation}
 %
 \begin{equation}
- (x\vec{i}+y\vec{j}+z\vec{k}).\vec{j} = \cos{AOB} 
+x= \cos{AOD}
 \end{equation}
 %
+putting these x and y  value in the equation (2.0.2)
 \begin{equation}
- (x\vec{i}+y\vec{j}+z\vec{0})(x\vec{0}+y\vec{1}+z\vec{0}) = \cos{AOB} 
+\vec{a} = cos{AOD}\vec{i}+sin{AOD}\vec{j}
 \end{equation}
 %
-\begin{equation}
-y= \sin{AOB}
-\end{equation}
-%
-Thus,
-%
-\begin{equation}
-\vec{a} = x\vec{i}+y\vec{j}
-\end{equation}
-%
-\begin{equation}
-\vec{a} = (\cos{AOB})\vec{i}+(\cos{AOB}) \vec{j}
-\end{equation}
-%
-This value will be in all quadrants($0\degree$ to $360\degree$)
+For all unit vector ($0$ to $2\pi$)
 \\
-
-
 \end{document}
